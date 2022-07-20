@@ -1,104 +1,94 @@
 <html>
 <head>
-
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<title>Layout Encerramento SD</title>
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<style>
-body {background-color: black; color: #f8f9fa; margin: 0;
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <title>Layout Encerramento SD</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <style>
+   body {background-color: black; color: #f8f9fa; margin: 0;
 	}
-img {
+   img {
     vertical-align: middle;
     border-style: none;
    }
-#transacao{
+   #transacao{
     text-transform: uppercase;
-}
-#menu ul{
-margin: 0;
-list-style: none;
-}
-#menu ul li{
-display: inline;
-}
-#menu ul li a {
-padding: 2px 10px;
-display: inline-block;
-text-decoration: none;
+   }
+   #menu ul{
+   margin: 0;
+   list-style: none;
+   }
+   #menu ul li{
+   display: inline;
+   }
+   #menu ul li a {
+   padding: 2px 10px;
+   display: inline-block;
+   text-decoration: none;
 
-}
-#menu ul li a:hover {
-color: @004d00;
-}
-</style>
-<script>
-<!-- ______________________________________________________Variáveis_____________________________________________________________ -->
-function pega(){
-var1 = "Ação: " + document.formulario.acao.value + "\n";
-var2 = "Tipo: " + document.formulario.tipo.value + "\n";	
-var3 = "Tema / Assunto: " + document.formulario.temaassunto.value + "\n";
-var4 = "Subtema 1 / Assunto: " + document.formulario.subtema1.value + "\n";
-var5 = "Subtema 2 / Assunto: " + document.formulario.subtema2.value + "\n";
-var6 = "Subtema 3 / Assunto: " + document.formulario.subtema3.value + "\n";
-var7 = "Rejeição 1: " + document.formulario.rejeicao1.value + "\n";
-var8 = "Rejeição 2: " + document.formulario.rejeicao2.value + "\n";
-var9 = "Rejeição 3: " + document.formulario.rejeicao3.value + "\n";
-var10 = "Transação: " + document.formulario.transacao.value + "\n";
-
-
-document.write('<br>');
+   }
+   #menu ul li a:hover {
+   color: @004d00;
+   }
+   </style>
+   <script>
+   <!-- ______________________________________________________Variáveis_____________________________________________________________ -->
+   function pega(){
+   var1 = "Ação: " + document.formulario.acao.value + "\n";
+   var2 = "Tipo: " + document.formulario.tipo.value + "\n";	
+   var3 = "Tema / Assunto: " + document.formulario.temaassunto.value + "\n";
+   var4 = "Subtema 1 / Assunto: " + document.formulario.subtema1.value + "\n";
+   var5 = "Subtema 2 / Assunto: " + document.formulario.subtema2.value + "\n";
+   var6 = "Subtema 3 / Assunto: " + document.formulario.subtema3.value + "\n";
+   var7 = "Rejeição 1: " + document.formulario.rejeicao1.value + "\n";
+   var8 = "Rejeição 2: " + document.formulario.rejeicao2.value + "\n";
+   var9 = "Rejeição 3: " + document.formulario.rejeicao3.value + "\n";
+   var10 = "Transação: " + document.formulario.transacao.value + "\n";
 
 
-document.write('<textarea class=form-control rows=20 cols=150 style="border:transparent;">');
-
-document.write(var2);
-document.write(var3);
-document.write(var4);
-document.write(var5);
-document.write(var6);
-document.write(var7);
-document.write(var8);
-document.write(var9);
-document.write(var10);
-document.write(var1);
+   document.write('<br>');
 
 
-document.write('</textarea>');
+    document.write('<textarea class=form-control rows=20 cols=150 style="border:transparent;">');
+
+    document.write(var2);
+    document.write(var3);
+    document.write(var4);
+    document.write(var5);
+    document.write(var6);
+    document.write(var7);
+    document.write(var8);
+    document.write(var9);
+    document.write(var10);
+    document.write(var1);
+
+
+   document.write('</textarea>');
 
 
 
-document.write('<br>');
-document.write('<br>');
-document.write('<button type="button" class="copy" style="background-color:black; color: #fff; borber: 2px solid #4CAF50; padding: 8px 18px;">Copiar Texto</button>');
-document.write('<br>');
-document.write('<br>');
-document.write('<a href="https://https://github.com/Vaugustoc/Vaugustoc/blob/main/teste">Retornar</a>');
+   document.write('<br>');
+   document.write('<br>');
+   document.write('<button type="button" class="copy" style="background-color:black; color: #fff; borber: 2px solid #4CAF50; padding: 8px 18px;">Copiar Texto</button>');
+   document.write('<br>');
+   document.write('<br>');
+   document.write('<a href="https://https://github.com/Vaugustoc/Vaugustoc/blob/main/teste">Retornar</a>');
 
 
-const btnCopy = document.querySelector('button.copy');
-const textArea = document.querySelector('textarea');
+   const btnCopy = document.querySelector('button.copy');
+   const textArea = document.querySelector('textarea');
 
-btnCopy.addEventListener('click', (e) => {
-  e.preventDefault();
+   btnCopy.addEventListener('click', (e) => {
+   e.preventDefault();
   
-  navigator.clipboard.writeText(textArea.value);
-  alert('Confirme para que o Texto seja copiado!');
-  
-});
-
-
-
-}
-
-</script>
-
-</head>
-
+   navigator.clipboard.writeText(textArea.value);
+   alert('Confirme para que o Texto seja copiado!');
+   });
+   }
+  </script>
+ </head>
 <body>
 <header>
 	<div class="caixa">
